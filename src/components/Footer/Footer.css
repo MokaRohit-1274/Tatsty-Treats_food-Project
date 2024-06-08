@@ -1,0 +1,84 @@
+/* Footer Container */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-content-left,
+.footer-content-center,
+.footer-content-right {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content-left img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-content-left p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-social-icons img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Center Section */
+.footer-content-center h2,
+.footer-content-right h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.footer-content-center ul,
+.footer-content-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content-center li,
+.footer-content-right li {
+    margin: 5px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-content-center li:hover,
+.footer-content-right li:hover {
+    color: #ff6347; /* Optional: Add a hover effect */
+}
+
+/* Right Section */
+.footer-content-right ul {
+    text-align: left;
+}
+
+/* Horizontal Line and CopyRight */
+hr {
+    margin: 20px 0;
+    border-color: #444;
+}
+
+.footer-copy-right {
+    font-size: 0.9em;
+    margin-top: 10px;
+}

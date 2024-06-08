@@ -1,0 +1,72 @@
+
+
+.header {
+    background-image: url('C:\Users\mokar\Documents\Food project\frontend\public\header1.jpeg') ; /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-contents {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column ;
+    align-items: start;
+    animation: fadeIn 3s;
+  }
+  
+ .header-contents h1{
+    font-weight: 500;
+    color: white;
+    font-size:max(4.5vw,22px);
+ }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .header button {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+  }
+  
+  .header button:hover {
+    background-color: #ff4500; /* Darker tomato color */
+  }
+  @media (max-width:1050px)
+  {
+    .header{
+      height: 30vw;;
+    }
+    .header-contents{
+      max-width: 45%;
+    }
+
+  }
+  @media (max-width:750px)
+  {
+   
+    .header-contents{
+      max-width: 55%;
+    }
+    .header-contents p{
+      display: none;
+    }
+
+  }
