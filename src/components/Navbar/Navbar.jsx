@@ -19,7 +19,7 @@ function Navbar({ setShowLogin }) {
         <li className={menu === "contact" ? "active" : ""} onClick={() => setMenu("contact")}>Contact Us</li>
       </ul>
       <div className="navbar-right">
-        <img src={assets.search} alt="Search Icon" />
+    
         <div className="navbar-search-icon">
         <Link to='/cart'> <img src={assets.cart} alt="Cart Icon" /></Link>
         <div className={getTotal() === 0 ? "" : "dot"}></div>

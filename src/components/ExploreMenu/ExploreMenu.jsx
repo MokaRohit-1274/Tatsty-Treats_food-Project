@@ -7,7 +7,7 @@ const ExploreMenu = ({ category, setCategory }) => {
     <div className='explore-menu' id="explore-menu">
       <h1>Explore Menu</h1>
       <p className='explore-text'>
-        Swiggy One is our versatile membership programme, accessible across offerings, that offers members discounts and promotions on our platform, including free delivery on select orders. Users can become Swiggy One members by paying a membership fee.
+        Tasty Treats One is our versatile membership programme, accessible across offerings, that offers members discounts and promotions on our platform, including free delivery on select orders. Users can become Tasty treats  One members by paying a membership fee.
       </p>
       <div className="explore-list">
         {menu_list.map((item, index) => (
