@@ -1,7 +1,7 @@
 
 
 .header {
-    background-image: url('C:\Users\mokar\Documents\Food project\frontend\public\header1.jpeg') ; /* Replace with your image URL */
+    background-image: url('C:\Users\mokar\Documents\Food project\frontend\src\components\Header\bgrpic-copy-19.webp') ; /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
